@@ -1,4 +1,3 @@
-
 def my_each(array)
   i = 0 
   my_array = []
