@@ -1,12 +1,16 @@
-def my_each(array) 
-  i = 0 
-  while i < array.length 
-  i += 1 
-  end
-end
+
 def my_each(array)
-  array = []
-  array.map do |array|
+  my_array = []
+  array.map do |arrays|
+    my_array << "I love #{topping} on my burgers!"
+  end
+  my_array
+end
+
+
+def hamburger(toppings)
+  my_statements = []
+  toppings.each do |topping|
     my_statements << "I love #{topping} on my burgers!"
   end
   my_statements
