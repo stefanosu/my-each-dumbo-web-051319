@@ -4,7 +4,7 @@ def my_each(array)
   array.map do |arrays|
     my_array << "I love #{topping} on my burgers!"
   end
-  my_array
+  my_each
 end
 
 
