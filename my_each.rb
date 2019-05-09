@@ -2,7 +2,7 @@
 def my_each(array)
   my_array = []
   while i < array.length 
-  yield 
+  yield(array) 
   array.map do |arrays|
   end
 end
