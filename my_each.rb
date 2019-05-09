@@ -1,6 +1,6 @@
 
 def my_each(array)
-  i = 0 
+  my_array = []
   while i < array.length 
   array.map do |arrays|
     my_array << "I love #{topping} on my burgers!"
