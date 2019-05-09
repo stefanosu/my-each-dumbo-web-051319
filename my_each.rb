@@ -5,8 +5,8 @@ def my_each(array)
   end
 end
 def my_each(array)
-  my_statements = []
-  toppings.each do |topping|
+  array = []
+  array.map do |array|
     my_statements << "I love #{topping} on my burgers!"
   end
   my_statements
