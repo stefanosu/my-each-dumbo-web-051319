@@ -1,10 +1,9 @@
-def my_each(array)
-  i = 0 
-  my_array = []
-  while i < array.length 
-  my_array << yield (array[i])  
-  i += 1 
-  end
-my_array
-end 
+#
 
+def my_each(array)
+  i = 0
+  while i < array.length
+    yield(array[i])
+    i = i + 1
+  end
+end
